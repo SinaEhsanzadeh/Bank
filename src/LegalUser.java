@@ -9,6 +9,8 @@ public class LegalUser extends User{
 
     protected String getCompanyAddress(){ return companyAddress; }
 
+    public void setCompanyAddress(String companyAddress){ this.companyAddress = companyAddress; }
+
     public void withdraw(float amount) {
         if (balance - amount * (1.03f) < 0)
             System.out.println("Insufficient balance");

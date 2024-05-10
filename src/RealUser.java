@@ -9,6 +9,8 @@ public class RealUser extends User{
 
     protected String getId(){ return id;}
 
+    public void setId(String id){ this.id = id; }
+
     public void withdraw(float amount) {
         if (balance - amount * (1.05f) < 0)
             System.out.println("Insufficient balance");

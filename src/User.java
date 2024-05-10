@@ -21,4 +21,9 @@ public abstract class User {
     public abstract void withdraw(float amount);
     public abstract void deposit(float amount);
 
+    public void setUserNumber(String userNumber){ this.userNumber = userNumber; }
+    public void setName(String name){ this.name = name; }
+    public void setEmail(String email){ this.email = email; }
+    public void setBalance(float balance){ this.balance = balance; }
+
 }
